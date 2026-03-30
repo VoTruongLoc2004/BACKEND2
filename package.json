@@ -1,25 +1,27 @@
 {
-  "name": "backend1",
+  "name": "backend_1",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/VoTruongLoc2004/BACKEND1#readme",
+  "homepage": "https://github.com/HuynhPhanTheTrung2003/Backend_1#readme",
   "bugs": {
-    "url": "https://github.com/VoTruongLoc2004/BACKEND1/issues"
+    "url": "https://github.com/HuynhPhanTheTrung2003/Backend_1/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VoTruongLoc2004/BACKEND1.git"
+    "url": "git+https://github.com/HuynhPhanTheTrung2003/Backend_1.git"
   },
   "license": "ISC",
-  "author": "Vo Truong Loc",
+  "author": "Huynh Phan The Trung",
   "type": "commonjs",
   "main": "index.js",
   "script": {
     "start": "nodemon server.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "mongodb": "^7.1.1"
   },
   "devDependencies": {
